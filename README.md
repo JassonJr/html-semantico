@@ -45,6 +45,10 @@ System.out.println('Hello World!');
 console.log('hello world!')
 ```
 
+```JS
+console.log('Ola, mundo!')
+```
+
 Frutas | Doces
 :-------:|:-------:
 Banana | Chocolate
