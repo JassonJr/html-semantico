@@ -31,7 +31,7 @@ Teste do *italico*
 ![Logotipo da Pipz](https://pipz.com/static/images/blog/eddie.png)
 
 > Não Faltem!
-> (João Macos)
+> (João Marcos)
 
 Método `console.log()` no JavaScript
 
