@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMTL Semântico</title>
-
-    <style>
-        body {
-            background-color: #666;
-        }
-
-        h1 {
-            color: #999;
-        }
-
-        p,
-        h2 {
-            color: white
-        }
-    </style>
+    <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <h1>HTML Semântico</h1>
-        <h2>Dando significado às estruturas</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor tempora natus! Fuga deserunt iure dolorum hic libero atque, perspiciatis omnis officia iste maiores minus incidunt, facere repellat aut molestiae!</p>
+    <header id="header">
+        <h1>Ford <span style="color:blue">&ltENTER&gt</span></h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <h1>HTML Semântico</h1>
-    <h2>Dando significado às estruturas</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor tempora natus! Fuga deserunt iure dolorum hic libero atque, perspiciatis omnis officia iste maiores minus incidunt, facere repellat aut molestiae!</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit odio, alias harum amet necessitatibus at eligendi quia quae quis facere quas veniam sint omnis, voluptate dolorum exercitationem vel asperiores! Debitis!</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, quaerat?</p>
+    <section>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt earum neque sapiente ullam iure inventore odio eveniet eligendi quisquam iusto, asperiores quo. Non doloribus esse sapiente minima accusantium vitae.</p>
+    </section>
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt earum neque sapiente ullam iure inventore odio eveniet eligendi quisquam iusto, asperiores quo. Non doloribus esse sapiente minima accusantium vitae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui praesentium non placeat. Velit vel esse voluptates excepturi pariatur dolores quasi, possimus nemo enim impedit accusantium veniam quibusdam nihil qui eius.</p>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nesciunt earum neque sapiente ullam iure inventore odio eveniet eligendi quisquam iusto, asperiores quo. Non doloribus esse sapiente minima accusantium vitae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquid ratione, sequi eius esse autem corrupti reiciendis ullam voluptatum obcaecati architecto nam laborum quas laboriosam beatae exercitationem voluptatibus quisquam officia?</p>
+
+        <a href="#header">Voltar ao início </a>
+    </section>
     <footer>
         <p>Desenvolvido por <a href="https://github.com/JassonJr">Jasson Jr</a></p>
     </footer>
 </body>
 
 </html>
-
