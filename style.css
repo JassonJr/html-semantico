@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth; /* comportamento do scroll: suave */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  column-gap: 25px;
+  list-style: none;
+}
