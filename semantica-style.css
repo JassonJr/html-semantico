@@ -3,6 +3,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
 ul {
   display: flex;
   justify-content: space-between;
@@ -71,6 +74,16 @@ footer {
   justify-content: center;
 }
 
+footer span {
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+footer span a {
+  text-decoration: none;
+  color: white;
+}
 footer a {
   text-decoration: none;
 }
