@@ -3,6 +3,13 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  color: darkgreen;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
 header {
   display: flex;
   justify-content: space-between;
