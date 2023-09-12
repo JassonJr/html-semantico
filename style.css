@@ -3,18 +3,36 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* 
+#93B1A6
+
+#5C8374
+
+#183D3D
+
+#040D12 
+*/
+
+body {
+  background-color: #053b50;
+  margin: 20px 50px;
+  text-align: justify;
+}
+
 h1 {
-  color: darkgreen;
   line-height: 2;
   font-weight: bold;
   font-size: 22pt;
 }
 
-header {
+/* Estilização Header */
+.logo {
+  color: #eeeeee;
+}
+.cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
 }
 nav {
   text-transform: uppercase;
@@ -22,10 +40,58 @@ nav {
 }
 nav a {
   text-decoration: none;
+  color: #64ccc5;
 }
 
 ul {
   display: flex;
   column-gap: 25px;
   list-style: none;
+}
+
+/* Estilização página */
+.titulo-de-pagina {
+  color: #64ccc5;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
+.titulo-de-artigo {
+  color: #64ccc5;
+  line-height: 1.8;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.titulo-de-secao {
+  color: #64ccc5;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.subtitulo-de-artigo {
+  color: #176b87;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+p {
+  color: #eeeeee;
+  line-height: 1.2;
+  font-size: 12pt;
+}
+
+.paragrafo {
+  back
+}
+.cabecalho::after {
+  content: " ";
+  position: absolute;
+  margin-top: 40px;
+  height: 2px;
+  width: 800px;
+  background-color: #eeeeee;
 }
