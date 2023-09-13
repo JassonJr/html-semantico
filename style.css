@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #64ccc5;
+  --second-color: #053b50;
+  --third-color: #eeeeee;
+  --fourth-color: #176b87;
+}
+
 html {
   scroll-behavior: smooth; /* comportamento do scroll: suave */
   font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +21,7 @@ html {
 */
 
 body {
-  background-color: #053b50;
+  background-color: var(--second-color);
   margin: 20px 50px;
   text-align: justify;
 }
@@ -27,7 +34,7 @@ h1 {
 
 /* Estilização Header */
 .logo {
-  color: #eeeeee;
+  color: var(--third-color);
 }
 .cabecalho {
   display: flex;
@@ -40,7 +47,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #64ccc5;
+  color: var(--primary-color);
 }
 
 ul {
@@ -49,49 +56,64 @@ ul {
   list-style: none;
 }
 
-/* Estilização página */
-.titulo-de-pagina {
-  color: #64ccc5;
-  line-height: 2;
-  font-weight: bold;
-  font-size: 22pt;
-}
-
-.titulo-de-artigo {
-  color: #64ccc5;
-  line-height: 1.8;
-  font-weight: bold;
-  font-size: 18pt;
-}
-
-.titulo-de-secao {
-  color: #64ccc5;
-  line-height: 2;
-  font-weight: bold;
-  font-size: 18pt;
-}
-
-.subtitulo-de-artigo {
-  color: #176b87;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 14pt;
-}
-
-p {
-  color: #eeeeee;
-  line-height: 1.2;
-  font-size: 12pt;
-}
-
-.paragrafo {
-  back
-}
 .cabecalho::after {
   content: " ";
   position: absolute;
   margin-top: 40px;
   height: 2px;
   width: 800px;
-  background-color: #eeeeee;
+  background-color: var(--third-color);
+}
+
+/* Estilização página */
+.titulo-de-pagina {
+  color: var(--primary-color);
+  line-height: 2;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
+.titulo-de-artigo {
+  color: var(--primary-color);
+  line-height: 1.8;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.titulo-de-secao {
+  color: var(--primary-color);
+  line-height: 2;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.subtitulo-de-artigo {
+  color: var(--fourth-color);
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+p {
+  color: var(--third-color);
+  line-height: 1.2;
+  font-size: 12pt;
+}
+
+article {
+  margin: 20px 30px;
+  padding: 15px 20px;
+  border:4px solid var(--primary-color);
+  border-radius: 20px 0 20px 0;
+}
+
+.paragrafo {
+  background-color: var(--fourth-color);
+  padding: 15px 20px;
+}
+
+/* Estilização Footer */
+footer {
+  margin: 50px 10px;
 }
