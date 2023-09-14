@@ -132,3 +132,25 @@ footer a {
   border: 2px solid var(--primary-color);
   border-radius: 5px;
 }
+
+article p {
+  padding: 10px 15px;
+  background-color: #eeeeee;
+  color: #053b50;
+}
+
+/* article p:nth-child(3) {
+  border-radius: 20px 0 0 0;
+} */
+
+.paragrafo-de-artigo:first-of-type {
+  border-radius: 20px 0 0 0;
+}
+
+.paragrafo-de-artigo:last-of-type {
+  border-radius: 0 0 20px 0;
+}
+
+.paragrafo-de-artigo:only-of-type {
+  border-radius: 20px 0 20px 0;
+}
